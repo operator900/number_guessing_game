@@ -24,5 +24,3 @@ while play_again == 'y':
     play_again = input("Want to play again? Type 'y' or 'n': ")
 
 print("Thanks for playing! :)")
-
-#print(ngg.game(difficulty=difficulty, pc_num = random_number))
