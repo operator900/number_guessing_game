@@ -12,7 +12,7 @@ play_again = 'y'
 
 while play_again == 'y':
     difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ")
-    random_number = rdm.randint(1, 101)
+    random_number = rdm.randint(1, 100)
 
     if difficulty == 'easy':
         ngg.easy_mode(random_number)
